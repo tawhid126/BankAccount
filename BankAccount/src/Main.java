@@ -29,5 +29,8 @@ public class Main {
         } catch (InsufficientFundsException e) {
             e.printStackTrace();
         }
+        System.out.println("Final balance:" + bankAccount.getBalance());
+     
+         System.out.println("End of transaction.");
     }
 }
